@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/PlayerOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="player one:0"
+        android:layout_margin="4dp"
+        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X Turn"
+            android:textAlignment="center"
+            android:layout_margin="4dp"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/PlayerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="player Two:0"
+            android:layout_margin="4dp"
+            android:textSize="20sp" />
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Button00"
+            android:layout_width="50dp"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:textSize="40sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/Button10"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/Button11"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/Button12"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:textSize="40sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/Button20"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/Button21"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/Button22"
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:layout_margin="4dp"
+            android:textSize="40sp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:textSize="18sp" />
+
+
+    </TableRow>
+
+    </TableLayout>
